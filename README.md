@@ -1,1 +1,1 @@
-My attempt at solving the Traveling Salesman Problem with the Ant Colony Optimization heuristic. It doesn't exactly work completely as intended but still does manage to find a valid/short path, most of the time.
+My attempt at solving the Traveling Salesman Problem with the Ant Colony Optimization heuristic. It doesn't exactly work completely as intended but still does manage to find a valid/short path most of the time. Points can be made by clicking on the Turtle Graphics screen, and the pathfinding algorithm started with the space key.
