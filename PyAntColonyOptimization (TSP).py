@@ -2,9 +2,7 @@
 import turtle as t #visualization
 import math as m
 import random as r
-import time as tm
 import copy as c
-#import matplotlib.pyplot as mp
 tscreen = t.Screen()
 tscreen.bgcolor("black")
 tscreen.tracer(0)
@@ -182,12 +180,6 @@ def path_find():
                 edge_pheromones[key] = pow(PHEROMONE_CONST, 10)
         iteration += 1
     t.textinput("FINISHED", f"Best distance found: {int(best_dist)}")
-    """
-    print(best_dist)
-    mp.plot(list_distance)
-    mp.title("Path Length over Time")
-    mp.show()
-    """
 def start():
     global lock
     if (len(list_points) > 2 and not lock):
